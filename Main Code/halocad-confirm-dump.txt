@@ -1,0 +1,4 @@
+ControlType.Pane|Yes|enabled=True|id=6
+ControlType.Pane|No|enabled=True|id=7
+ControlType.Pane||enabled=True|id=20
+ControlType.Pane|Want to reset Authentication details ? Please save the file prior to reset.|enabled=True|id=65535

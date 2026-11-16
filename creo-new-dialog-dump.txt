@@ -1,0 +1,1 @@
+(nothing found: UI Automation sees no element in this window)
