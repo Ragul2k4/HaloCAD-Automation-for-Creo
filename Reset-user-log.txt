@@ -1,9 +1,0 @@
-[16.11.2026, 14:00:04] ==================== RUN START (Reset-user) ====================
-[16.11.2026, 14:00:07] Starting Creo (one time)...
-[16.11.2026, 14:00:08] Waiting for the main Creo window...
-[16.11.2026, 14:00:19]   window: handle=3213142 pid=10008 size=705x203 title="Administrator Mapkeys Update"
-[16.11.2026, 14:00:19]   window: handle=5965460 pid=10008 size=1382x736 title="Creo Parametric"
-[16.11.2026, 14:00:19]   window: handle=788424 pid=10008 size=1206x720 title="Resource Center"
-[16.11.2026, 14:00:19] Main window chosen: title="Creo Parametric" size=1382x736
-[16.11.2026, 14:00:19] Creo window found. Handle: 5965460
-[16.11.2026, 14:00:19] Waiting 15 seconds for Creo to finish loading...

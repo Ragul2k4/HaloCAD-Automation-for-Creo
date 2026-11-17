@@ -1,0 +1,219 @@
+ControlType.Pane||enabled=True|id=
+ControlType.Pane||enabled=True|id=
+ControlType.Pane||enabled=True|id=
+ControlType.Pane||enabled=False|id=
+ControlType.Pane||enabled=True|id=
+ControlType.Pane||enabled=True|id=
+ControlType.Document|Global Leader in Product Lifecycle Management Software | PTC|enabled=True|id=RootWebArea
+ControlType.Group||enabled=True|id=
+ControlType.Hyperlink|Skip to main content|enabled=True|id=
+ControlType.Group||enabled=True|id=
+ControlType.Hyperlink|PTC Logo|enabled=True|id=
+ControlType.Image|PTC Logo|enabled=True|id=
+ControlType.Hyperlink|PTC Store|enabled=True|id=
+ControlType.Hyperlink|PTC Store|enabled=True|id=
+ControlType.Hyperlink|Contact Us|enabled=True|id=
+ControlType.Hyperlink|Contact Us|enabled=True|id=
+ControlType.Button|Open site search|enabled=True|id=
+ControlType.Button|Open site search|enabled=True|id=
+ControlType.Image|Open site search|enabled=True|id=
+ControlType.Button|Menu Toggle button|enabled=True|id=
+ControlType.Button|Menu Toggle button|enabled=True|id=
+ControlType.Image||enabled=True|id=
+ControlType.Group||enabled=True|id=
+ControlType.Group||enabled=True|id=
+ControlType.Text|Introducing PTC Jetstream: Contextualized, Connected Collaboration|enabled=True|id=
+ControlType.Text|Share 2D and 3D product data with suppliers, partners and colleagues in one secure Room. Capture feedback in context and keep every decision traceable.|enabled=True|id=
+ControlType.Hyperlink|Meet PTC Jetstream|enabled=True|id=
+ControlType.Hyperlink|Meet PTC Jetstream|enabled=True|id=
+ControlType.Group||enabled=True|id=
+ControlType.Group||enabled=True|id=jumbotron-tile-1
+ControlType.Image|FY25 Impact Report|enabled=True|id=
+ControlType.Text|Featured News|enabled=True|id=
+ControlType.Text|FY25 Impact Report: Read about our ongoing sustainability efforts|enabled=True|id=
+ControlType.Hyperlink|Read the FY25 Impact Report|enabled=True|id=
+ControlType.Group||enabled=True|id=jumbotron-tile-2
+ControlType.Image|Product Sustainability for Dummies book cover|enabled=True|id=
+ControlType.Text|E-book|enabled=True|id=
+ControlType.Text|Product Sustainability For Dummies, PTC Special Edition|enabled=True|id=
+ControlType.Hyperlink|Read Product Sustainability For Dummies, PTC Special Edition|enabled=True|id=
+ControlType.Group||enabled=True|id=jumbotron-tile-3
+ControlType.Image|green hexagon 3D background|enabled=True|id=
+ControlType.Text|Explore|enabled=True|id=
+ControlType.Text|AI is fueling what's possible in product development|enabled=True|id=
+ControlType.Hyperlink|AI at PTC |enabled=True|id=
+ControlType.Button|Video Pause button|enabled=True|id=
+ControlType.Text|Deliver more value through your products|enabled=True|id=
+ControlType.Text|Deliver more value through your products|enabled=True|id=
+ControlType.Text|With PTC solutions, you can reduce product development friction and complexity, creating downstream benefits that improve quality, boost revenue, and accelerate innovation.�|enabled=True|id=
+ControlType.Button|Manage Product Complexity|enabled=True|id=
+ControlType.Image||enabled=True|id=
+ControlType.Image|a green graphic with hexagons and a photo of a man and woman looking at a tablet while working on an electric car chassis|enabled=True|id=
+ControlType.Text|Manage product complexity with the right solutions|enabled=True|id=
+ControlType.Text|Manage product complexity with the right solutions|enabled=True|id=
+ControlType.Text|Overcome product complexity with solutions for managing configurations and product variants, software and hardware requirements, technical documentation, and more.|enabled=True|id=
+ControlType.Hyperlink|Explore Solutions|enabled=True|id=
+ControlType.Hyperlink|Explore Solutions|enabled=True|id=
+ControlType.Button|Video Pause button|enabled=True|id=
+ControlType.Text|What's New, What's NEXT|enabled=True|id=
+ControlType.Text|See the latest in PTC innovation-from emerging advancements and new product experiences-so you can explore what's new and see what's next shaping the future for your business.|enabled=True|id=
+ControlType.Hyperlink|PTC Product Innovations|enabled=True|id=
+ControlType.Hyperlink|PTC Product Innovations|enabled=True|id=
+ControlType.Text|The latest in asset intelligence and enterprise collaboration|enabled=True|id=
+ControlType.Group||enabled=True|id=
+ControlType.Group||enabled=True|id=homepage-video-background-cta-1
+ControlType.Hyperlink|PTC Orbit|enabled=True|id=
+ControlType.Image|white icon of planet in orbit|enabled=True|id=
+ControlType.Text|PTC Orbit|enabled=True|id=
+ControlType.Group||enabled=True|id=homepage-video-background-cta-2
+ControlType.Hyperlink|PTC Jetstream|enabled=True|id=
+ControlType.Image|white icon of jetstream wind|enabled=True|id=
+ControlType.Text|PTC Jetstream|enabled=True|id=
+ControlType.Text|Brands you rely on, rely on PTC|enabled=True|id=
+ControlType.Text|You can't go a single day without encountering a product engineered, manufactured, or serviced with PTC software. In fact, 95% of Fortune 500 discrete manufacturing companies are PTC customers.|enabled=True|id=
+ControlType.Hyperlink|Explore Case Studies|enabled=True|id=
+ControlType.Hyperlink|Explore Case Studies|enabled=True|id=
+ControlType.Group||enabled=True|id=
+ControlType.Hyperlink|Read more about vestas|enabled=True|id=
+ControlType.Image|vestas-1920x1080|enabled=True|id=
+ControlType.Image|vestas logo|enabled=True|id=
+ControlType.Hyperlink|Read more about volvo-ce|enabled=True|id=
+ControlType.Image|plm-digital-innovation-volvo-construction-trucks-2|enabled=True|id=
+ControlType.Image|volvo logo|enabled=True|id=
+ControlType.Hyperlink|Read more about datatrak-traceability-process-transparency|enabled=True|id=
+ControlType.Image|medical-device-datatrax|enabled=True|id=
+ControlType.Image|datatrak-cloud-logo|enabled=True|id=
+ControlType.Hyperlink|Read more about innovator-spotlight-polaris|enabled=True|id=
+ControlType.Image|cxc-demo-polaris-atv-red |enabled=True|id=
+ControlType.Image|polaris logo|enabled=True|id=
+ControlType.Hyperlink|Read more about rolls-royce-power-systems|enabled=True|id=
+ControlType.Image|Rolls-Royce Power Systemscollage|enabled=True|id=
+ControlType.Image|Rolls-royce-mtu-combined|enabled=True|id=
+ControlType.Hyperlink|Read more about cummins-optimizes-product-designs|enabled=True|id=
+ControlType.Image|cummins-optimizes-product-designs_header|enabled=True|id=
+ControlType.Image|cummins-logo-1|enabled=True|id=
+ControlType.Hyperlink|Read more about lufthansa-technik-enterprise-plm|enabled=True|id=
+ControlType.Image|Lufthansa Technik Technician |enabled=True|id=
+ControlType.Image|Lufthansa-Technik-logo-color 92x42-01.svg|enabled=True|id=
+ControlType.Hyperlink|Read more about liebherr-earthmoving-product-development-transformation|enabled=True|id=
+ControlType.Image|Construction workers reviewing a tablet alongside heavy machinery and a bulldozer with digital technology effects highlighting modren equipment|enabled=True|id=
+ControlType.Image|Liebherr|enabled=True|id=
+ControlType.Hyperlink|Read more about schneider-electric-global-business-transformation|enabled=True|id=
+ControlType.Image|corporate-schneider-electric|enabled=True|id=
+ControlType.Image|Schneider Electric logo|enabled=True|id=
+ControlType.Hyperlink|Read more about automobili-lamborghini-accelerates-innovation-with-digital-transformation|enabled=True|id=
+ControlType.Image|Automobili Lamborghini auto collage|enabled=True|id=
+ControlType.Image|lamborghini logo|enabled=True|id=
+ControlType.Hyperlink|Read more about nvidia-customer-video|enabled=True|id=
+ControlType.Image|high tech server room|enabled=True|id=
+ControlType.Image|NVIDIA full color logo|enabled=True|id=
+ControlType.Group||enabled=True|id=
+ControlType.Image||enabled=True|id=
+ControlType.Group||enabled=True|id=
+ControlType.Image||enabled=True|id=
+ControlType.Text|Committed to your success|enabled=True|id=
+ControlType.Text|Our customers rely on our |enabled=True|id=
+ControlType.Hyperlink|best-in-class solutions|enabled=True|id=
+ControlType.Text|, open software philosophy, extensive partner network, and deep industry expertise to drive digital transformation across the entire product lifecycle.|enabled=True|id=
+ControlType.Hyperlink|About Us|enabled=True|id=
+ControlType.Hyperlink|About Us|enabled=True|id=
+ControlType.Text|How can we help you?|enabled=True|id=
+ControlType.Hyperlink|icon of gear with wrench inside Support Portal|enabled=True|id=
+ControlType.Image|icon of gear with wrench inside|enabled=True|id=
+ControlType.Hyperlink|chat bubbles icon Contact an Expert|enabled=True|id=
+ControlType.Image|chat bubbles icon|enabled=True|id=
+ControlType.Hyperlink|person with globe icon Join the PTC Community|enabled=True|id=
+ControlType.Image|person with globe icon|enabled=True|id=
+ControlType.Hyperlink|PTC Store Icon PTC Store|enabled=True|id=
+ControlType.Image|PTC Store Icon|enabled=True|id=
+ControlType.Hyperlink|icon of laptop with checkmark rising out Training and Skills|enabled=True|id=
+ControlType.Image|icon of laptop with checkmark rising out|enabled=True|id=
+ControlType.Hyperlink|Training Support Training Support|enabled=True|id=
+ControlType.Image|Training Support|enabled=True|id=
+ControlType.Text|Explore PTC|enabled=True|id=
+ControlType.List||enabled=True|id=
+ControlType.ListItem|About PTC|enabled=True|id=
+ControlType.Hyperlink|About PTC|enabled=True|id=
+ControlType.ListItem|Products|enabled=True|id=
+ControlType.Hyperlink|Products|enabled=True|id=
+ControlType.ListItem|Learning Connector|enabled=True|id=
+ControlType.Hyperlink|Learning Connector|enabled=True|id=
+ControlType.ListItem|Careers|enabled=True|id=
+ControlType.Hyperlink|Careers|enabled=True|id=
+ControlType.ListItem|Leadership|enabled=True|id=
+ControlType.Hyperlink|Leadership|enabled=True|id=
+ControlType.List||enabled=True|id=
+ControlType.ListItem|Investor Relations|enabled=True|id=
+ControlType.Hyperlink|Investor Relations|enabled=True|id=
+ControlType.ListItem|News|enabled=True|id=
+ControlType.Hyperlink|News|enabled=True|id=
+ControlType.ListItem|Partners|enabled=True|id=
+ControlType.Hyperlink|Partners|enabled=True|id=
+ControlType.ListItem|Events|enabled=True|id=
+ControlType.Hyperlink|Events|enabled=True|id=
+ControlType.ListItem|Global Locations|enabled=True|id=
+ControlType.Hyperlink|Global Locations|enabled=True|id=
+ControlType.List||enabled=True|id=
+ControlType.ListItem||enabled=True|id=footerInstagramIconID
+ControlType.Hyperlink|Instagram|enabled=True|id=
+ControlType.Image|Instagram|enabled=True|id=
+ControlType.ListItem||enabled=True|id=footerFacebookIconID
+ControlType.Hyperlink|Facebook|enabled=True|id=
+ControlType.Image|Facebook|enabled=True|id=
+ControlType.ListItem||enabled=True|id=footerLinkedInIconID
+ControlType.Hyperlink|LinkedIn|enabled=True|id=
+ControlType.Image|LinkedIn|enabled=True|id=
+ControlType.ListItem||enabled=True|id=footerXIconID
+ControlType.Hyperlink|X, formerly Twitter|enabled=True|id=
+ControlType.Image|X, formerly Twitter|enabled=True|id=
+ControlType.ListItem||enabled=True|id=footerYouTubeIconID
+ControlType.Hyperlink|Youtube|enabled=True|id=
+ControlType.Image|Youtube|enabled=True|id=
+ControlType.Group||enabled=True|id=
+ControlType.Group||enabled=True|id=
+ControlType.Group||enabled=True|id=lang-ddl
+ControlType.Text|English|enabled=True|id=
+ControlType.Hyperlink|PTC logo, links to homepage|enabled=True|id=
+ControlType.Image|PTC logo, links to homepage|enabled=True|id=
+ControlType.Text|c Copyright 2026 PTC|enabled=True|id=
+ControlType.List||enabled=True|id=
+ControlType.ListItem|Legal|enabled=True|id=
+ControlType.Hyperlink|Legal|enabled=True|id=
+ControlType.ListItem|Trust Center|enabled=True|id=
+ControlType.Hyperlink|Trust Center|enabled=True|id=
+ControlType.ListItem|Privacy Policy|enabled=True|id=
+ControlType.Hyperlink|Privacy Policy|enabled=True|id=
+ControlType.ListItem|Sitemap|enabled=True|id=
+ControlType.Hyperlink|Sitemap|enabled=True|id=
+ControlType.ListItem|Cookies Settings|enabled=True|id=
+ControlType.Hyperlink|Cookies Settings|enabled=True|id=
+ControlType.Group|Parker assistant|enabled=True|id=
+ControlType.Group|After Parker assistant|enabled=True|id=
+ControlType.Group|Parker assistant, start|enabled=True|id=
+ControlType.Group||enabled=True|id=
+ControlType.StatusBar||enabled=True|id=
+ControlType.Group|Converse with Parker, AI Agent|enabled=True|id=
+ControlType.Text|Parker, AI Agent|enabled=True|id=
+ControlType.Button|Expand|enabled=True|id=
+ControlType.Image||enabled=True|id=
+ControlType.Button|Minimize|enabled=True|id=
+ControlType.Image||enabled=True|id=
+ControlType.Image|Parker|enabled=True|id=avatar-toolbar.avatar
+ControlType.Text|Parker|enabled=True|id=
+ControlType.Text|AI Agent|enabled=True|id=
+ControlType.Group|Message preview|enabled=True|id=
+ControlType.Group|Parker (AI)|enabled=True|id=
+ControlType.Text|Improving operational efficiency and boosting your OEE can significantly impact your manufacturing outcomes. How are you currently addressing these areas in your operations?|enabled=True|id=
+ControlType.Text|Message input|enabled=True|id=
+ControlType.Button|Book a Meeting|enabled=True|id=
+ControlType.Text|Message Parker|enabled=True|id=
+ControlType.Edit|Message Parker|enabled=True|id=multimodal-chat-input
+ControlType.Button|Send message|enabled=False|id=
+ControlType.Image||enabled=True|id=
+ControlType.Hyperlink|PTC Privacy Policy?|enabled=True|id=
+ControlType.Group|Parker assistant, end|enabled=True|id=
+ControlType.Pane||enabled=True|id=
+ControlType.Pane||enabled=True|id=
+ControlType.Pane||enabled=True|id=398100688
+ControlType.Pane||enabled=True|id=398100688
+ControlType.Pane||enabled=True|id=346037248
