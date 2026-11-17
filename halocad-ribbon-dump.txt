@@ -203,7 +203,7 @@ ControlType.Text|Parker|enabled=True|id=
 ControlType.Text|AI Agent|enabled=True|id=
 ControlType.Group|Message preview|enabled=True|id=
 ControlType.Group|Parker (AI)|enabled=True|id=
-ControlType.Text|Improving operational efficiency and boosting your OEE can significantly impact your manufacturing outcomes. How are you currently addressing these areas in your operations?|enabled=True|id=
+ControlType.Text|Improving lifecycle traceability can boost product quality and service profitability. How are you currently connecting your engineering, manufacturing, and service teams?|enabled=True|id=
 ControlType.Text|Message input|enabled=True|id=
 ControlType.Button|Book a Meeting|enabled=True|id=
 ControlType.Text|Message Parker|enabled=True|id=
@@ -214,6 +214,6 @@ ControlType.Hyperlink|PTC Privacy Policy?|enabled=True|id=
 ControlType.Group|Parker assistant, end|enabled=True|id=
 ControlType.Pane||enabled=True|id=
 ControlType.Pane||enabled=True|id=
-ControlType.Pane||enabled=True|id=398100688
-ControlType.Pane||enabled=True|id=398100688
-ControlType.Pane||enabled=True|id=346037248
+ControlType.Pane||enabled=True|id=43485392
+ControlType.Pane||enabled=True|id=43485392
+ControlType.Pane||enabled=True|id=1306991616

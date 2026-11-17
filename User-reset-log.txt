@@ -1,82 +1,82 @@
-[17.11.2026, 08:28:24] ==================== RUN START (Reset-user) ====================
-[17.11.2026, 08:28:28] Starting Creo (one time)...
-[17.11.2026, 08:28:28] Waiting for the main Creo window...
-[17.11.2026, 08:28:39]   window: handle=4064930 pid=1268 size=705x203 title="Administrator Mapkeys Update"
-[17.11.2026, 08:28:39]   window: handle=657368 pid=1268 size=1382x736 title="Creo Parametric"
-[17.11.2026, 08:28:39]   window: handle=2361232 pid=1268 size=1206x720 title="Resource Center"
-[17.11.2026, 08:28:39] Main window chosen: title="Creo Parametric" size=1382x736
-[17.11.2026, 08:28:39] Creo window found. Handle: 657368
-[17.11.2026, 08:28:39] Waiting 15 seconds for Creo to finish loading...
-[17.11.2026, 08:28:55] Popup closed: "Administrator Mapkeys Update"
-[17.11.2026, 08:28:57] Popup closed: "Resource Center"
-[17.11.2026, 08:29:04] Creating Appium session...
-[17.11.2026, 08:29:06] Appium session created.
-[17.11.2026, 08:29:06] Window title: "Creo Parametric"
-[17.11.2026, 08:29:06] UI tree saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\reset-user-ui-dump.xml (Button: 3, Pane: 9)
-[17.11.2026, 08:29:09] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\creo-tabbar-before-1794900549173.png
-[17.11.2026, 08:29:09] TAB      | go to the "HaloCAD" tab
-[17.11.2026, 08:29:10]   "HaloCAD" (UI Automation): no-element
-[17.11.2026, 08:29:10]   UI Automation did not click the tab. Using OCR.
-[17.11.2026, 08:29:11]   words read in the tab bar: e creo File New Home Open Open Last Session HaloCAD Select Working Directory Erase Not Displayed Model Display System Appearance Highlight New Play Trail File Expert Moldbase Creo Al Assistant
-[17.11.2026, 08:29:11]   mouse click at x=190 y=38
-[17.11.2026, 08:29:15] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\creo-halocad-ribbon-1794900555077.png
-[17.11.2026, 08:29:16] UI Automation list saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\halocad-ribbon-dump.txt
-[17.11.2026, 08:29:18] STATUS   | click "Status"
-[17.11.2026, 08:29:18]   "Status" (UI Automation): no-element
-[17.11.2026, 08:29:18]   UI Automation did not click it. Using OCR.
-[17.11.2026, 08:29:19]   words read on the ribbon: File Status About Information Home HaloCAD Creo Al Assistant x https://www.ptc.com/en
-[17.11.2026, 08:29:19]   mouse click at x=23 y=105
-[17.11.2026, 08:29:25] Status window found: handle=3933852 title="HaloCAD" position=308,213 size=750x310
-[17.11.2026, 08:29:27] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\halocad-status-window-1794900567441.png
-[17.11.2026, 08:29:28] UI Automation list saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\halocad-status-dump.txt
-[17.11.2026, 08:29:29]   words read in the Status window: HaloCAD Connected as QC4@halosecude.onmicrosoft.com x Reset Labelling Status Owner Sensitivity Permissions Expire access View Edit Copy Print Export Change Rights 0K
-[17.11.2026, 08:29:29] RESET    | click "Reset" in the HaloCAD window
-[17.11.2026, 08:29:31]   "Reset" (UI Automation): no-element
-[17.11.2026, 08:29:31]   UI Automation did not click "Reset". Using OCR.
-[17.11.2026, 08:29:32]   words read in the window: HaloCAD Connected as QC4@halosecude.onmicrosoft.com x Reset Labelling Status Owner Sensitivity Permissions Expire access View Edit Copy Print Export Change Rights 0K
-[17.11.2026, 08:29:32]   mouse click at x=978 y=261
-[17.11.2026, 08:29:33] RESET    | wait for the question window
-[17.11.2026, 08:29:34] Question window found: handle=3082484 title="HaloCAD" size=405x159
-[17.11.2026, 08:29:36] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\halocad-confirm-window-1794900575730.png
-[17.11.2026, 08:29:36] UI Automation list saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\halocad-confirm-dump.txt
-[17.11.2026, 08:29:36] RESET    | click "Yes"
-[17.11.2026, 08:29:38]   "Yes" (UI Automation): no-pattern
-[17.11.2026, 08:29:38]   UI Automation did not click "Yes". Using OCR.
-[17.11.2026, 08:29:39]   words read in the window: HaloCAD x Want to reset Authentication details ? Please save the file prior to reset.
-[17.11.2026, 08:29:39]   the word "Yes" was not found. Clicking the fixed point.
-[17.11.2026, 08:29:39] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\halocad-yes-fixedpoint-1794900579125.png
-[17.11.2026, 08:29:39]   mouse click at x=747 y=448
-[17.11.2026, 08:29:42] RESET    | wait for the 2nd popup (Authentication reset completed)
-[17.11.2026, 08:29:43] 2nd popup found: handle=3148020 title="HaloCAD" size=405x159
-[17.11.2026, 08:29:45] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\halocad-info-popup-1794900584737.png
-[17.11.2026, 08:29:46]   words read in the 2nd popup: HaloCAD x Authentication reset completed. Please relaunch the CAD application. 0K
-[17.11.2026, 08:29:46] RESET    | click "OK" in the 2nd popup
-[17.11.2026, 08:29:47]   "OK" (UI Automation): no-pattern
-[17.11.2026, 08:29:47]   UI Automation did not click "OK". Using OCR.
-[17.11.2026, 08:29:48]   words read in the window: HaloCAD x Authentication reset completed. Please relaunch the CAD application. 0K
-[17.11.2026, 08:29:48]   mouse click at x=834 y=440
-[17.11.2026, 08:29:55] Creo windows after Yes: "HaloCAD" 750x310 | "Creo Parametric" 1382x736
-[17.11.2026, 08:29:56] RESET    | click "OK" in the HaloCAD window
-[17.11.2026, 08:29:56] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\halocad-before-ok-1794900596089.png
-[17.11.2026, 08:29:58]   "OK" (UI Automation): no-element
-[17.11.2026, 08:29:58]   UI Automation did not click "OK". Using OCR.
-[17.11.2026, 08:29:59]   words read in the window: HaloCAD Connected as QC4@halosecude.onmicrosoft.com x Reset Labelling Status Owner Sensitivity Permissions Expire access View Edit Copy Print Export Change Rights 0K
-[17.11.2026, 08:29:59]   mouse click at x=683 y=498
-[17.11.2026, 08:30:01] User reset successfully.
-[17.11.2026, 08:30:01] Appium session ended.
-[17.11.2026, 08:30:03] Closed: parametric.exe
-[17.11.2026, 08:30:03] Closed: xtop.exe
-[17.11.2026, 08:30:05] ----------------------------------------------------
-[17.11.2026, 08:30:05] Popups closed    : Administrator Mapkeys Update, Resource Center
-[17.11.2026, 08:30:05] HaloCAD tab      : opened (OCR, the Status button is on the ribbon)
-[17.11.2026, 08:30:05] Status click     : clicked (OCR)
-[17.11.2026, 08:30:05] Status window    : opened ("HaloCAD" 750x310)
-[17.11.2026, 08:30:05] Reset clicked    : clicked (OCR)
-[17.11.2026, 08:30:05] Question (Yes)   : clicked (fixed point)
-[17.11.2026, 08:30:05] Info popup (OK)  : clicked (OCR), the 2nd popup is closed
-[17.11.2026, 08:30:05] OK clicked       : clicked (OCR), the HaloCAD window is closed
-[17.11.2026, 08:30:05] UserCache        : User reset successfully
-[17.11.2026, 08:30:05] Creo closed      : yes
-[17.11.2026, 08:30:05] ----------------------------------------------------
-[17.11.2026, 08:30:05] RESULT: PASSED
-[17.11.2026, 08:30:05] ==================== RUN END ====================
+[17.11.2026, 11:52:06] ==================== RUN START (Reset-user) ====================
+[17.11.2026, 11:52:10] Starting Creo (one time)...
+[17.11.2026, 11:52:10] Waiting for the main Creo window...
+[17.11.2026, 11:52:23]   window: handle=10684476 pid=4352 size=705x203 title="Administrator Mapkeys Update"
+[17.11.2026, 11:52:23]   window: handle=6161382 pid=4352 size=1382x736 title="Creo Parametric"
+[17.11.2026, 11:52:23]   window: handle=7208986 pid=4352 size=1206x720 title="Resource Center"
+[17.11.2026, 11:52:23] Main window chosen: title="Creo Parametric" size=1382x736
+[17.11.2026, 11:52:23] Creo window found. Handle: 6161382
+[17.11.2026, 11:52:23] Waiting 15 seconds for Creo to finish loading...
+[17.11.2026, 11:52:39] Popup closed: "Administrator Mapkeys Update"
+[17.11.2026, 11:52:41] Popup closed: "Resource Center"
+[17.11.2026, 11:52:48] Creating Appium session...
+[17.11.2026, 11:52:50] Appium session created.
+[17.11.2026, 11:52:50] Window title: "Creo Parametric"
+[17.11.2026, 11:52:50] UI tree saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\reset-user-ui-dump.xml (Button: 3, Pane: 9)
+[17.11.2026, 11:52:53] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\creo-tabbar-before-1794912772931.png
+[17.11.2026, 11:52:53] TAB      | go to the "HaloCAD" tab
+[17.11.2026, 11:52:53]   "HaloCAD" (UI Automation): no-element
+[17.11.2026, 11:52:53]   UI Automation did not click the tab. Using OCR.
+[17.11.2026, 11:52:54]   words read in the tab bar: e creo File New Home Open Open Last Session HaloCAD Select Working Directory Erase Not Displayed Model Display System Appearance Highlight New Play Trail File Expert Moldbase Creo Al Assistant
+[17.11.2026, 11:52:54]   mouse click at x=190 y=38
+[17.11.2026, 11:52:59] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\creo-halocad-ribbon-1794912778694.png
+[17.11.2026, 11:53:00] UI Automation list saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\halocad-ribbon-dump.txt
+[17.11.2026, 11:53:01] STATUS   | click "Status"
+[17.11.2026, 11:53:02]   "Status" (UI Automation): no-element
+[17.11.2026, 11:53:02]   UI Automation did not click it. Using OCR.
+[17.11.2026, 11:53:03]   words read on the ribbon: File Status About Information Home HaloCAD Creo Al Assistant x https://www.ptc.com/en
+[17.11.2026, 11:53:03]   mouse click at x=23 y=105
+[17.11.2026, 11:53:09] Status window found: handle=8913996 title="HaloCAD" position=308,213 size=750x310
+[17.11.2026, 11:53:11] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\halocad-status-window-1794912790584.png
+[17.11.2026, 11:53:11] UI Automation list saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\halocad-status-dump.txt
+[17.11.2026, 11:53:12]   words read in the Status window: HaloCAD Connected as QC4@halosecude.onmicrosoft.com x Reset Labelling Status Owner Sensitivity Permissions Expire access View Edit Copy Print Export Change Rights 0K
+[17.11.2026, 11:53:12] RESET    | click "Reset" in the HaloCAD window
+[17.11.2026, 11:53:14]   "Reset" (UI Automation): no-element
+[17.11.2026, 11:53:14]   UI Automation did not click "Reset". Using OCR.
+[17.11.2026, 11:53:15]   words read in the window: HaloCAD Connected as QC4@halosecude.onmicrosoft.com x Reset Labelling Status Owner Sensitivity Permissions Expire access View Edit Copy Print Export Change Rights 0K
+[17.11.2026, 11:53:15]   mouse click at x=978 y=261
+[17.11.2026, 11:53:16] RESET    | wait for the question window
+[17.11.2026, 11:53:16] Question window found: handle=6752594 title="HaloCAD" size=405x159
+[17.11.2026, 11:53:18] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\halocad-confirm-window-1794912798323.png
+[17.11.2026, 11:53:19] UI Automation list saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\halocad-confirm-dump.txt
+[17.11.2026, 11:53:19] RESET    | click "Yes"
+[17.11.2026, 11:53:21]   "Yes" (UI Automation): no-pattern
+[17.11.2026, 11:53:21]   UI Automation did not click "Yes". Using OCR.
+[17.11.2026, 11:53:22]   words read in the window: HaloCAD x Want to reset Authentication details ? Please save the file prior to reset.
+[17.11.2026, 11:53:22]   the word "Yes" was not found. Clicking the fixed point.
+[17.11.2026, 11:53:22] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\halocad-yes-fixedpoint-1794912802009.png
+[17.11.2026, 11:53:22]   mouse click at x=747 y=448
+[17.11.2026, 11:53:25] RESET    | wait for the 2nd popup (Authentication reset completed)
+[17.11.2026, 11:53:26] 2nd popup found: handle=8456132 title="HaloCAD" size=405x159
+[17.11.2026, 11:53:28] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\halocad-info-popup-1794912807593.png
+[17.11.2026, 11:53:28]   words read in the 2nd popup: HaloCAD x Authentication reset completed. Please relaunch the CAD application. 0K
+[17.11.2026, 11:53:28] RESET    | click "OK" in the 2nd popup
+[17.11.2026, 11:53:30]   "OK" (UI Automation): no-pattern
+[17.11.2026, 11:53:30]   UI Automation did not click "OK". Using OCR.
+[17.11.2026, 11:53:31]   words read in the window: HaloCAD x Authentication reset completed. Please relaunch the CAD application. 0K
+[17.11.2026, 11:53:31]   mouse click at x=834 y=440
+[17.11.2026, 11:53:37] Creo windows after Yes: "HaloCAD" 750x310 | "Creo Parametric" 1382x736
+[17.11.2026, 11:53:38] RESET    | click "OK" in the HaloCAD window
+[17.11.2026, 11:53:38] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\halocad-before-ok-1794912818281.png
+[17.11.2026, 11:53:40]   "OK" (UI Automation): no-element
+[17.11.2026, 11:53:40]   UI Automation did not click "OK". Using OCR.
+[17.11.2026, 11:53:41]   words read in the window: HaloCAD Connected as QC4@halosecude.onmicrosoft.com x Reset Labelling Status Owner Sensitivity Permissions Expire access View Edit Copy Print Export Change Rights 0K
+[17.11.2026, 11:53:41]   mouse click at x=683 y=498
+[17.11.2026, 11:53:43] User reset successfully.
+[17.11.2026, 11:53:43] Appium session ended.
+[17.11.2026, 11:53:45] Closed: parametric.exe
+[17.11.2026, 11:53:45] Closed: xtop.exe
+[17.11.2026, 11:53:47] ----------------------------------------------------
+[17.11.2026, 11:53:47] Popups closed    : Administrator Mapkeys Update, Resource Center
+[17.11.2026, 11:53:47] HaloCAD tab      : opened (OCR, the Status button is on the ribbon)
+[17.11.2026, 11:53:47] Status click     : clicked (OCR)
+[17.11.2026, 11:53:47] Status window    : opened ("HaloCAD" 750x310)
+[17.11.2026, 11:53:47] Reset clicked    : clicked (OCR)
+[17.11.2026, 11:53:47] Question (Yes)   : clicked (fixed point)
+[17.11.2026, 11:53:47] Info popup (OK)  : clicked (OCR), the 2nd popup is closed
+[17.11.2026, 11:53:47] OK clicked       : clicked (OCR), the HaloCAD window is closed
+[17.11.2026, 11:53:47] UserCache        : User reset successfully
+[17.11.2026, 11:53:47] Creo closed      : yes
+[17.11.2026, 11:53:47] ----------------------------------------------------
+[17.11.2026, 11:53:47] RESULT: PASSED
+[17.11.2026, 11:53:47] ==================== RUN END ====================

@@ -1,145 +1,147 @@
-[17.11.2026, 08:24:11] ==================== RUN START (Creo) ====================
-[17.11.2026, 08:24:14] Starting Creo (one time)...
-[17.11.2026, 08:24:14] config.pro written: C:\Users\TESTUSER\Documents\config.pro
-[17.11.2026, 08:24:14] Waiting for the main Creo window...
-[17.11.2026, 08:24:26]   window: handle=264128 pid=13016 size=705x203 title="Administrator Mapkeys Update"
-[17.11.2026, 08:24:26]   window: handle=1704962 pid=13016 size=1382x736 title="Creo Parametric"
-[17.11.2026, 08:24:26]   window: handle=1443322 pid=13016 size=1206x720 title="Resource Center"
-[17.11.2026, 08:24:26] Main window chosen: title="Creo Parametric" size=1382x736
-[17.11.2026, 08:24:26] Creo window found. Handle: 1704962
-[17.11.2026, 08:24:26] Waiting 15 seconds for Creo to finish loading...
-[17.11.2026, 08:24:43] Appium session created.
-[17.11.2026, 08:24:43] Window title: "Creo Parametric"
-[17.11.2026, 08:24:43] UI tree saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\creo-ui-dump.xml (Button: 3, Pane: 9)
-[17.11.2026, 08:24:45] Popup closed: "Administrator Mapkeys Update"
-[17.11.2026, 08:24:46] Popup closed: "Resource Center"
-[17.11.2026, 08:24:53] Automatic file name: Part_0003
-[17.11.2026, 08:24:53] ---- Create a new file | type: Part | sub-type: Solid ----
-[17.11.2026, 08:24:55] TRY 1    | click on the empty ribbon, then Ctrl+N
-[17.11.2026, 08:24:55]   mouse click at x=780 y=62
-[17.11.2026, 08:24:58] The New window opened with try 1.
-[17.11.2026, 08:24:58] New window found: handle=4196062 position=464,151 size=437x439
-[17.11.2026, 08:25:00] "Part" (UI Automation): no-element
-[17.11.2026, 08:25:00] UI Automation cannot see "Part". Using OCR.
-[17.11.2026, 08:25:01] UI Automation list of the New window saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\creo-new-dialog-dump.txt
-[17.11.2026, 08:25:02]   words read: Type o o 0 17 J Layout Sketch Part Assembly Manufacturing Drawing Format Notebook rt0001 File name:  Common name: Use default template New Sub-type @ Solid O Sheetmetal O Bulk Harness 0K x Cancel
-[17.11.2026, 08:25:02]   mouse click at x=553 y=282
-[17.11.2026, 08:25:05] "Solid" (UI Automation): no-element
-[17.11.2026, 08:25:05] UI Automation cannot see "Solid". Using OCR.
-[17.11.2026, 08:25:06]   words read: Type o o 0 17 Layout Sketch Assembly Manufacturing Drawing Format Notebook File name: prt0001 Common name: Use default template New Sub-type @ Solid O Sheetmetal O Bulk Harness 0K x Cancel
-[17.11.2026, 08:25:06]   mouse click at x=702 y=233
-[17.11.2026, 08:25:07] File name (UI Automation): no-element
-[17.11.2026, 08:25:08]   mouse click at x=726 y=458
-[17.11.2026, 08:25:12] File name typed with the keyboard. Seen on the screen: true
-[17.11.2026, 08:25:13] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\creo-new-window-1794900312588.png
-[17.11.2026, 08:25:13] OK button (UI Automation): no-element
-[17.11.2026, 08:25:14]   mouse click at x=802 y=563
-[17.11.2026, 08:25:23] Creo windows now: WinWM | PART_0003 (Active) - Creo Parametric
-[17.11.2026, 08:25:25]   mouse click at x=101 y=38
-[17.11.2026, 08:25:26] ---- Create the design with clicks (2D sketch only) ----
-[17.11.2026, 08:25:29]   mouse click at x=101 y=38
-[17.11.2026, 08:25:33] DESIGN   | 1/5 click Sketch
-[17.11.2026, 08:25:34]   mouse click at x=420 y=105
-[17.11.2026, 08:25:37] DESIGN   | 2/5 pick the plane FRONT
-[17.11.2026, 08:25:38]   mouse click at x=70 y=329
-[17.11.2026, 08:25:45]   Sketch mode is not open yet. Accepting the Sketch window with a middle click.
-[17.11.2026, 08:25:45]   middle click at x=752 y=397
-[17.11.2026, 08:25:51] DESIGN   | 3/5 click Rectangle
-[17.11.2026, 08:25:52]   mouse click at x=413 y=93
-[17.11.2026, 08:25:54] DESIGN   | 4/5 draw the rectangle
-[17.11.2026, 08:25:54]   mouse click at x=669 y=314
-[17.11.2026, 08:25:56]   mouse click at x=835 y=480
-[17.11.2026, 08:25:58]   middle click at x=752 y=397
-[17.11.2026, 08:26:00] DESIGN   | 5/5 click the green tick (finish the sketch)
-[17.11.2026, 08:26:01] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\creo-ribbon-before-ok-1794900361063.png
-[17.11.2026, 08:26:03]   green tick found at x=1161 y=73 (size 26x17, 109 pixels)
-[17.11.2026, 08:26:03]   mouse click at x=1161 y=73
-[17.11.2026, 08:26:04]   green tick, try 1: green icon
-[17.11.2026, 08:26:09] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\creo-design-1794900369483.png
-[17.11.2026, 08:26:09] ---- Apply the label | name: QC_Confidential | index: 1 ----
-[17.11.2026, 08:26:12] LABEL    | 1/5 find the Sensitivity bar
-[17.11.2026, 08:26:12] LABEL    | 2/5 click the pencil
-[17.11.2026, 08:26:12]   mouse click at x=1275 y=193
-[17.11.2026, 08:26:17]   the word "Sensitivity" moved from x=1000 to x=1000
-[17.11.2026, 08:26:17] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\creo-label-edit-1794900377216.png
-[17.11.2026, 08:26:17] LABEL    | 3/5 click the dropdown to open the label list
-[17.11.2026, 08:26:17]   mouse click at x=1120 y=193
-[17.11.2026, 08:26:20] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\creo-label-list-1794900380279.png
-[17.11.2026, 08:26:21]   Creo windows now: "" 220x342 | "" 434x44 | "WinWM" 1366x768 | "PART_0003 (Active) - Creo Parametric" 1382x736
-[17.11.2026, 08:26:22]   words read: Sensitivity --No Protection-- --No Protection-- --Custom permissions-- QC_Confidential General/Anyone (unrestricted) General/All Employees (unrestricted) Highly Confidential /AII Employees Highly Confidential /Specific People HaloCORE Secret QC_Viewonly QC_Watermark QC_Fullrights scannerLabelWlthProtection IT-Administrator label QC_Watermark_Username QC_Custom QC_Label Without Protection QC_Watermark_DateTme QC_Allowoffline_Never Day_Label QC_Label_Custompermission X +0.1 X.XX+O.OI
-[17.11.2026, 08:26:22] LABEL    | 4/5 pick the label QC_Confidential
-[17.11.2026, 08:26:22]   label found by name at x=1058 y=247
-[17.11.2026, 08:26:22]   mouse click at x=1058 y=247
-[17.11.2026, 08:26:25] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\creo-label-picked-1794900384720.png
-[17.11.2026, 08:26:26]   bar after picking: Pattern Blend Boundary Component Merge (SJ Intersect Solidify Unify Surfaces Blend Interface Creo Assistant Chamfer c/ Rib Engineering Editing Surfaces Model Intent
-[17.11.2026, 08:26:26] LABEL    | 5/5 click the green button (apply)
-[17.11.2026, 08:26:26]   green button found at x=1247 y=191 (size 26x26)
-[17.11.2026, 08:26:26]   mouse click at x=1247 y=191
-[17.11.2026, 08:26:34]   Sensitivity bar after apply: Pattern Blend Boundary Component Unify Surfaces Blend Interface Surfaces Model Intent Creo Assistant Chamfer c/ Rib Engineering Merge (SJ Intersect Solidify Editing
-[17.11.2026, 08:26:34] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\creo-label-done-1794900394365.png
-[17.11.2026, 08:26:34] ---- Save the file | folder: C:\Users\TESTUSER\Documents ----
-[17.11.2026, 08:26:37]   mouse click at x=101 y=38
-[17.11.2026, 08:26:39] TRY 1    | click on the drawing area, then Ctrl+S
-[17.11.2026, 08:26:39]   mouse click at x=683 y=434
-[17.11.2026, 08:26:41] The Save window opened with try 1.
-[17.11.2026, 08:26:44]   words read in the Save window: Save Object Documents = wslu0313 Organize v Views v Common Folders Desktop �J My Documents Working Directory '-O Recent Favorites Network Folder Tree (C:) Users Tools v exports TESTUSER x Filter... File name Save To PART 0003.PRT 0K Cancel
-[17.11.2026, 08:26:44]   the folder name "Documents" is shown in the Save window: true
-[17.11.2026, 08:26:45] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\creo-save-window-1794900404572.png
-[17.11.2026, 08:26:45] OK button (UI Automation): no-element
-[17.11.2026, 08:26:46]   mouse click at x=514 y=622
-[17.11.2026, 08:26:47] OK in the Save window: OCR
-[17.11.2026, 08:26:48] File found on the disk: C:\Users\TESTUSER\Documents\part_0003.prt.1
-[17.11.2026, 08:26:48] ---- Check the label in the saved file | part_0003.prt ----
-[17.11.2026, 08:26:48] CLOSE    | close the file part_0003 (Ctrl+W)
-[17.11.2026, 08:26:51]   mouse click at x=101 y=38
-[17.11.2026, 08:26:53]   mouse click at x=683 y=434
-[17.11.2026, 08:26:56]   the file is closed.
-[17.11.2026, 08:26:56] VERIFY   | restart Creo, so the file is read from the disk
-[17.11.2026, 08:26:56] Closed: parametric.exe
-[17.11.2026, 08:26:56] Closed: xtop.exe
-[17.11.2026, 08:27:16]   window: handle=2230278 pid=11564 size=705x203 title="Administrator Mapkeys Update"
-[17.11.2026, 08:27:16]   window: handle=6161992 pid=11564 size=1382x736 title="Creo Parametric"
-[17.11.2026, 08:27:16]   window: handle=2950844 pid=11564 size=1206x720 title="Resource Center"
-[17.11.2026, 08:27:16] Main window chosen: title="Creo Parametric" size=1382x736
-[17.11.2026, 08:27:32] Popup closed: "Administrator Mapkeys Update"
-[17.11.2026, 08:27:34] Popup closed: "Resource Center"
-[17.11.2026, 08:27:41] VERIFY   | open the same file again
-[17.11.2026, 08:27:44] TRY 1    | click on the empty ribbon, then Ctrl+O
-[17.11.2026, 08:27:44]   mouse click at x=780 y=62
-[17.11.2026, 08:27:48]   opening: C:\Users\TESTUSER\Documents\part_0003.prt
-[17.11.2026, 08:27:55] VERIFY   | read the Sensitivity label
-[17.11.2026, 08:28:00]   OCR (bar window 418x44): Sensitivity QC_Confldential
-[17.11.2026, 08:28:00] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\creo-label-verify-1794900480288.png
-[17.11.2026, 08:28:05]   OCR (bar window 418x44): Sensitivity QC_Confldential
-[17.11.2026, 08:28:06] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\creo-label-verify-1794900485679.png
-[17.11.2026, 08:28:06] ----------------------------------------------------
-[17.11.2026, 08:28:06] File name        : part_0003.prt
-[17.11.2026, 08:28:06] Configured label : QC_Confidential
-[17.11.2026, 08:28:06] Label in file    : QC_Confidential
-[17.11.2026, 08:28:06] FILE SECURITY    : PROTECTED
-[17.11.2026, 08:28:06] ----------------------------------------------------
-[17.11.2026, 08:28:06] CLOSE    | close the file part_0003 (Ctrl+W)
-[17.11.2026, 08:28:09]   mouse click at x=101 y=38
-[17.11.2026, 08:28:10]   mouse click at x=683 y=434
-[17.11.2026, 08:28:13]   the file is closed.
-[17.11.2026, 08:28:13] Could not end the session: WebDriverError: A session is either terminated or not started when running "http://127.0.0.1:4723/session/3de0ef12-a7f0-4233-b645-341d84edccac" with method "DELETE"
-[17.11.2026, 08:28:15] Closed: parametric.exe
-[17.11.2026, 08:28:16] Closed: xtop.exe
-[17.11.2026, 08:28:16] ----------------------------------------------------
-[17.11.2026, 08:28:16] config.pro       : written (C:\Users\TESTUSER\Documents\config.pro)
-[17.11.2026, 08:28:16] Popups closed    : Administrator Mapkeys Update, Resource Center
-[17.11.2026, 08:28:16] New window       : shown (437x439)
-[17.11.2026, 08:28:16] Type (Part)      : clicked by OCR (cannot be checked, see the screenshot)
-[17.11.2026, 08:28:16] Sub-type (Solid) : clicked by OCR (cannot be checked, see the screenshot)
-[17.11.2026, 08:28:16] File name        : typed: Part_0003
-[17.11.2026, 08:28:16] OK pressed       : clicked (OCR)
-[17.11.2026, 08:28:16] File created     : yes (name "Part_0003" is in a window title)
-[17.11.2026, 08:28:16] Design           : yes (2D sketch is in the model tree)
-[17.11.2026, 08:28:16] Label            : clicked, but the label name could not be confirmed by OCR (check the creo-label-done screenshot)
-[17.11.2026, 08:28:16] Save window      : shown (704x530)
-[17.11.2026, 08:28:16] Save folder      : Save window already in the right folder (working_directory)
-[17.11.2026, 08:28:16] File saved       : yes: C:\Users\TESTUSER\Documents\part_0003.prt.1
-[17.11.2026, 08:28:16] File security    : PROTECTED (QC_Confidential)
-[17.11.2026, 08:28:16] ----------------------------------------------------
-[17.11.2026, 08:28:16] RESULT: PASSED
-[17.11.2026, 08:28:16] ==================== RUN END ====================
+[17.11.2026, 11:47:55] ==================== RUN START (Creo) ====================
+[17.11.2026, 11:47:58] Starting Creo (one time)...
+[17.11.2026, 11:47:58] config.pro written: C:\Users\TESTUSER\Documents\config.pro
+[17.11.2026, 11:47:58] Waiting for the main Creo window...
+[17.11.2026, 11:48:11]   window: handle=5507022 pid=2320 size=705x203 title="Administrator Mapkeys Update"
+[17.11.2026, 11:48:11]   window: handle=5046660 pid=2320 size=1382x736 title="Creo Parametric"
+[17.11.2026, 11:48:11]   window: handle=2033872 pid=2320 size=1206x720 title="Resource Center"
+[17.11.2026, 11:48:11] Main window chosen: title="Creo Parametric" size=1382x736
+[17.11.2026, 11:48:11] Creo window found. Handle: 5046660
+[17.11.2026, 11:48:11] Waiting 15 seconds for Creo to finish loading...
+[17.11.2026, 11:48:28] Appium session created.
+[17.11.2026, 11:48:28] Window title: "Creo Parametric"
+[17.11.2026, 11:48:28] UI tree saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\creo-ui-dump.xml (Button: 3, Pane: 9)
+[17.11.2026, 11:48:29] Popup closed: "Administrator Mapkeys Update"
+[17.11.2026, 11:48:30] Popup closed: "Resource Center"
+[17.11.2026, 11:48:37] Automatic file name: Part_0010
+[17.11.2026, 11:48:37] ---- Create a new file | type: Part | sub-type: Solid ----
+[17.11.2026, 11:48:40] TRY 1    | click on the empty ribbon, then Ctrl+N
+[17.11.2026, 11:48:40]   mouse click at x=780 y=62
+[17.11.2026, 11:48:42] The New window opened with try 1.
+[17.11.2026, 11:48:42] New window found: handle=6424546 position=464,151 size=437x439
+[17.11.2026, 11:48:45] "Part" (UI Automation): no-element
+[17.11.2026, 11:48:45] UI Automation cannot see "Part". Using OCR.
+[17.11.2026, 11:48:46]   words read: Type o o 0 17 J Layout Sketch Part Assembly Manufacturing Drawing Format Notebook rt0001 File name:  Common name: Use default template New Sub-type @ Solid O Sheetmetal O Bulk Harness 0K x Cancel
+[17.11.2026, 11:48:46]   mouse click at x=553 y=282
+[17.11.2026, 11:48:48] "Solid" (UI Automation): no-element
+[17.11.2026, 11:48:48] UI Automation cannot see "Solid". Using OCR.
+[17.11.2026, 11:48:49]   words read: Type o o 0 17 Layout Sketch Assembly Manufacturing Drawing Format Notebook File name: prt0001 Common name: Use default template New Sub-type @ Solid O Sheetmetal O Bulk Harness 0K x Cancel
+[17.11.2026, 11:48:49]   mouse click at x=702 y=233
+[17.11.2026, 11:48:51] File name (UI Automation): no-element
+[17.11.2026, 11:48:52]   mouse click at x=726 y=458
+[17.11.2026, 11:48:55] File name typed with the keyboard. Seen on the screen: true
+[17.11.2026, 11:48:56] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\creo-new-window-1794912536189.png
+[17.11.2026, 11:48:57] OK button (UI Automation): no-element
+[17.11.2026, 11:48:58]   mouse click at x=802 y=563
+[17.11.2026, 11:49:07] Creo windows now: WinWM | PART_0010 (Active) - Creo Parametric
+[17.11.2026, 11:49:08]   mouse click at x=101 y=38
+[17.11.2026, 11:49:09] ---- Create the design with clicks (3D Extrude box) ----
+[17.11.2026, 11:49:12]   mouse click at x=101 y=38
+[17.11.2026, 11:49:16] DESIGN   | 1/7 click Extrude
+[17.11.2026, 11:49:17]   mouse click at x=473 y=105
+[17.11.2026, 11:49:20] DESIGN   | 2/7 pick the plane FRONT
+[17.11.2026, 11:49:21]   mouse click at x=70 y=329
+[17.11.2026, 11:49:26] DESIGN   | 3/7 click Rectangle
+[17.11.2026, 11:49:27]   mouse click at x=413 y=93
+[17.11.2026, 11:49:29] DESIGN   | 4/7 draw the rectangle
+[17.11.2026, 11:49:29]   mouse click at x=669 y=314
+[17.11.2026, 11:49:32]   mouse click at x=835 y=480
+[17.11.2026, 11:49:33]   middle click at x=752 y=397
+[17.11.2026, 11:49:35] DESIGN   | 5/7 click the green OK (finish the sketch)
+[17.11.2026, 11:49:37]   green tick found at x=1161 y=73 (size 26x17, 109 pixels)
+[17.11.2026, 11:49:37]   mouse click at x=1161 y=73
+[17.11.2026, 11:49:37]   sketch OK clicked by: green icon
+[17.11.2026, 11:49:43] DESIGN   | 6/7 the Extrude tool is already open
+[17.11.2026, 11:49:44]   depth: the default depth of Creo is kept.
+[17.11.2026, 11:49:44] DESIGN   | 7/7 click the green OK (finish the extrude)
+[17.11.2026, 11:49:45]   green tick found at x=855 y=84 (size 27x17, 110 pixels)
+[17.11.2026, 11:49:45]   mouse click at x=855 y=84
+[17.11.2026, 11:49:46]   extrude OK clicked by: green icon
+[17.11.2026, 11:49:54] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\creo-design-1794912593774.png
+[17.11.2026, 11:49:54] ---- Apply the label | name: QC_Confidential | index: 1 ----
+[17.11.2026, 11:49:57] LABEL    | 1/5 find the Sensitivity bar
+[17.11.2026, 11:49:57] LABEL    | 2/5 click the pencil
+[17.11.2026, 11:49:57]   mouse click at x=1275 y=193
+[17.11.2026, 11:50:01]   the word "Sensitivity" moved from x=1000 to x=1000
+[17.11.2026, 11:50:02] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\creo-label-edit-1794912601958.png
+[17.11.2026, 11:50:02] LABEL    | 3/5 click the dropdown to open the label list
+[17.11.2026, 11:50:02]   mouse click at x=1120 y=193
+[17.11.2026, 11:50:05] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\creo-label-list-1794912604808.png
+[17.11.2026, 11:50:06]   Creo windows now: "" 220x342 | "" 434x44 | "WinWM" 1366x768 | "PART_0010 (Active) - Creo Parametric" 1382x736
+[17.11.2026, 11:50:06]   words read: Sensitivity --No Protection-- --No Protection-- --Custom permissions-- QC_Confidential General/Anyone (unrestricted) General/All Employees (unrestricted) Highly Confidential /AII Employees Highly Confidential /Specific People HaloCORE Secret QC_Viewonly QC_Watermark QC_Fullrights scannerLabelWlthProtection IT-Administrator label QC_Watermark_Username QC_Custom QC_Label Without Protection QC_Watermark_DateTme QC_Allowoffline_Never Day_Label QC_Label_Custompermission X +0.1 X.XX+O.OI
+[17.11.2026, 11:50:06] LABEL    | 4/5 pick the label QC_Confidential
+[17.11.2026, 11:50:06]   label found by name at x=1058 y=247
+[17.11.2026, 11:50:06]   mouse click at x=1058 y=247
+[17.11.2026, 11:50:09] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\creo-label-picked-1794912609148.png
+[17.11.2026, 11:50:10]   bar after picking: Creo Assistant Blend Chamfer Rib Engineering Pattern Boundary Component Merge (SJ Intersect Solidify Unify Surfaces Blend Interface Editing Surfaces Model Intent
+[17.11.2026, 11:50:10] LABEL    | 5/5 click the green button (apply)
+[17.11.2026, 11:50:10]   green button found at x=1247 y=191 (size 26x26)
+[17.11.2026, 11:50:10]   mouse click at x=1247 y=191
+[17.11.2026, 11:50:18]   Sensitivity bar after apply: Pattern Blend Boundary Component Unify Surfaces Blend Interface Surfaces Model Intent Creo Assistant Chamfer Rib Engineering Merge (SJ Intersect Solidify Editing
+[17.11.2026, 11:50:18] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\creo-label-done-1794912618387.png
+[17.11.2026, 11:50:18] ---- Save the file | folder: C:\Users\TESTUSER\Documents ----
+[17.11.2026, 11:50:21]   mouse click at x=101 y=38
+[17.11.2026, 11:50:23] TRY 1    | click on the drawing area, then Ctrl+S
+[17.11.2026, 11:50:23]   mouse click at x=683 y=434
+[17.11.2026, 11:50:26] The Save window opened with try 1.
+[17.11.2026, 11:50:28]   words read in the Save window: Save Object Documents = wslu0313 Organize v Views v Common Folders Desktop �J My Documents Working Directory '-O Recent Favorites Network Folder Tree (C:) Users Tools v exports TESTUSER x Filter... File name Save To PART OOIO.PRT 0K Cancel
+[17.11.2026, 11:50:28]   the folder name "Documents" is shown in the Save window: true
+[17.11.2026, 11:50:28] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\creo-save-window-1794912628569.png
+[17.11.2026, 11:50:29] OK button (UI Automation): no-element
+[17.11.2026, 11:50:30]   mouse click at x=514 y=622
+[17.11.2026, 11:50:31] OK in the Save window: OCR
+[17.11.2026, 11:50:32] File found on the disk: C:\Users\TESTUSER\Documents\part_0010.prt.1
+[17.11.2026, 11:50:32] ---- Check the label in the saved file | part_0010.prt ----
+[17.11.2026, 11:50:32] CLOSE    | close the file part_0010 (Ctrl+W)
+[17.11.2026, 11:50:35]   mouse click at x=101 y=38
+[17.11.2026, 11:50:36]   mouse click at x=683 y=434
+[17.11.2026, 11:50:39]   the file is closed.
+[17.11.2026, 11:50:39] VERIFY   | restart Creo, so the file is read from the disk
+[17.11.2026, 11:50:39] Closed: parametric.exe
+[17.11.2026, 11:50:39] Closed: xtop.exe
+[17.11.2026, 11:50:59]   window: handle=4653092 pid=2040 size=705x203 title="Administrator Mapkeys Update"
+[17.11.2026, 11:50:59]   window: handle=6161412 pid=2040 size=1382x736 title="Creo Parametric"
+[17.11.2026, 11:50:59]   window: handle=11929904 pid=2040 size=1206x720 title="Resource Center"
+[17.11.2026, 11:50:59] Main window chosen: title="Creo Parametric" size=1382x736
+[17.11.2026, 11:51:15] Popup closed: "Administrator Mapkeys Update"
+[17.11.2026, 11:51:18] Popup closed: "Resource Center"
+[17.11.2026, 11:51:25] VERIFY   | open the same file again
+[17.11.2026, 11:51:27] TRY 1    | click on the empty ribbon, then Ctrl+O
+[17.11.2026, 11:51:27]   mouse click at x=780 y=62
+[17.11.2026, 11:51:31]   opening: C:\Users\TESTUSER\Documents\part_0010.prt
+[17.11.2026, 11:51:37] VERIFY   | read the Sensitivity label
+[17.11.2026, 11:51:42]   OCR (bar window 418x44): Sensitivity QC_Confldential
+[17.11.2026, 11:51:42] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\creo-label-verify-1794912702264.png
+[17.11.2026, 11:51:47]   OCR (bar window 418x44): Sensitivity QC_Confldential
+[17.11.2026, 11:51:47] Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\creo-label-verify-1794912707507.png
+[17.11.2026, 11:51:47] ----------------------------------------------------
+[17.11.2026, 11:51:47] File name        : part_0010.prt
+[17.11.2026, 11:51:47] Configured label : QC_Confidential
+[17.11.2026, 11:51:47] Label in file    : QC_Confidential
+[17.11.2026, 11:51:47] FILE SECURITY    : PROTECTED
+[17.11.2026, 11:51:47] ----------------------------------------------------
+[17.11.2026, 11:51:47] CLOSE    | close the file part_0010 (Ctrl+W)
+[17.11.2026, 11:51:51]   mouse click at x=101 y=38
+[17.11.2026, 11:51:52]   mouse click at x=683 y=434
+[17.11.2026, 11:51:55]   the file is closed.
+[17.11.2026, 11:51:55] Could not end the session: WebDriverError: A session is either terminated or not started when running "http://127.0.0.1:4723/session/27a11653-cb14-4e5d-97c5-3b4ed3eef0ed" with method "DELETE"
+[17.11.2026, 11:51:57] Closed: parametric.exe
+[17.11.2026, 11:51:58] Closed: xtop.exe
+[17.11.2026, 11:51:58] ----------------------------------------------------
+[17.11.2026, 11:51:58] config.pro       : written (C:\Users\TESTUSER\Documents\config.pro)
+[17.11.2026, 11:51:58] Popups closed    : Administrator Mapkeys Update, Resource Center
+[17.11.2026, 11:51:58] New window       : shown (437x439)
+[17.11.2026, 11:51:58] Type (Part)      : clicked by OCR (cannot be checked, see the screenshot)
+[17.11.2026, 11:51:58] Sub-type (Solid) : clicked by OCR (cannot be checked, see the screenshot)
+[17.11.2026, 11:51:58] File name        : typed: Part_0010
+[17.11.2026, 11:51:58] OK pressed       : clicked (OCR)
+[17.11.2026, 11:51:58] File created     : yes (name "Part_0010" is in a window title)
+[17.11.2026, 11:51:58] Design           : yes (3D Extrude feature is in the model tree)
+[17.11.2026, 11:51:58] Label            : clicked, but the label name could not be confirmed by OCR (check the creo-label-done screenshot)
+[17.11.2026, 11:51:58] Save window      : shown (704x530)
+[17.11.2026, 11:51:58] Save folder      : Save window already in the right folder (working_directory)
+[17.11.2026, 11:51:58] File saved       : yes: C:\Users\TESTUSER\Documents\part_0010.prt.1
+[17.11.2026, 11:51:58] File security    : PROTECTED (QC_Confidential)
+[17.11.2026, 11:51:58] ----------------------------------------------------
+[17.11.2026, 11:51:58] RESULT: PASSED
+[17.11.2026, 11:51:58] ==================== RUN END ====================

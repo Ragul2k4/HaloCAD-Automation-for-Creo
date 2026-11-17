@@ -10,7 +10,10 @@
  *        - checks the type (and sub-type), types the file name, clicks OK
  *        - checks that the "New" window is closed
  *        - goes back to the "Model" tab
- *   5. Runs the design (mapkey), if configured
+ *   5. Runs the design:
+ *        - a mapkey, if configured, OR
+ *        - the automatic 3D design (Extrude box), OR
+ *        - the automatic 2D design (Sketch only)
  *   6. Applies the HaloCAD sensitivity label (pencil -> label by name / index -> green button)
  *   7. Saves the file (Ctrl+S) in the save folder and checks that it is on the disk
  *   8. Closes the file, opens the same file again and reads the Sensitivity label
@@ -76,7 +79,7 @@ const CONFIG = {
     //      "mapkey(continued) ...") and paste them into mapkeyLines below, one line per string.
     //   3. Write the key in "keys".
     // The script writes these lines into config.pro before Creo starts, then sends the keys.
-    // keys empty = the script makes no design and saves the empty file.
+    // keys empty = the script makes no mapkey design.
     // IMPORTANT: the mapkey must end with the feature finished (the green check). Otherwise Creo stays in Sketch mode.
     design: {
         keys: '',                      // keys of your mapkey, written like SendKeys, for example 'xx'
@@ -88,15 +91,24 @@ const CONFIG = {
 
         // AUTOMATIC DESIGN (used when "keys" is empty): the script builds a box with the Extrude tool, no recording needed.
         //   Extrude -> pick the plane in the model tree -> Rectangle -> 2 clicks -> OK (sketch) -> finish the extrude.
-        // The depth is the default depth that Creo proposes. Set auto to false to save an empty part.
+        // The depth is the default depth that Creo proposes, unless "depth" below is set.
+        // Set auto to false to save an empty part.
         auto: true,
-        extrude: false,                          // false = 2D sketch only (Sketch tool). true = also make an Extrude (box)
+        extrude: true,                           // true = 3D box with the Extrude tool. false = 2D sketch only (Sketch tool)
         plane: 'FRONT',                          // the sketch plane, as written in the model tree
         graphicsCenter: { x: 0.55, y: 0.55 },    // centre of the drawing area (0..1 of the Creo window)
         boxSize: 0.06,                           // half size of the rectangle (0..1 of the window width)
         ribbonHeight: 190,                       // height (px) of the ribbon area that OCR reads
         sketchOkPoint: { x: 0.877, y: 0.078 },   // the green OK of the Sketch tab (used only if OCR cannot read "OK")
-        stepWait: 2500                           // ms to wait after every step
+        stepWait: 2500,                          // ms to wait after every step
+
+        // Extrude depth. 0 = keep the default depth that Creo proposes.
+        // A number (for example 50) = the script types this depth into the depth box before it finishes the extrude.
+        depth: 0,
+        // Where the depth box is, relative to the word "Depth" (the group name on the Extrude tab).
+        // Look at the creo-extrude-tab-*.png screenshot and change these two values if the click misses the box.
+        depthBoxDx: 0,                           // pixels to the right of the word "Depth" (negative = left)
+        depthBoxDy: -30                          // pixels up from the word "Depth" (the box is above the group name)
     },
 
     save: {
@@ -1096,7 +1108,6 @@ function middleClickAt(x, y) {
     `, 30000, { CTL_CS, CLICK_X: String(px), CLICK_Y: String(py) });
 }
 
-/** Finds a word with OCR inside an area. Returns { x, y, text } (the left one if there are several) or null. */
 // C# helper: finds the green tick (an ICON, so OCR cannot read it) by its colour.
 // It takes a picture of a screen area, finds the groups of green pixels and returns the right-most one that has the size of an icon.
 const GREEN_CS = `
@@ -1184,6 +1195,7 @@ function isOkWord(w) {
     return ['ok', '0k'].includes(normalize(w.text));
 }
 
+/** Finds a word with OCR inside an area. Returns { x, y, text } (the left one if there are several) or null. */
 function findWord(area, word) {
     const hits = ocrWords(area).filter(w => normalize(w.text) === normalize(word)).sort((a, b) => a.x - b.x);
     return hits[0] || null;
@@ -1196,7 +1208,8 @@ function extrudeTabActive(main) {
 
 /**
  * Clicks the green "OK" of the ribbon (Close group).
- * 1st: OCR reads the word OK (also "0K"). 2nd: a fixed point, if one is given. Returns 'OCR', 'fixed point' or null.
+ * 1st: the green tick icon (found by colour). 2nd: OCR reads the word OK (also "0K"). 3rd: a fixed point, if one is given.
+ * Returns 'green icon', 'OCR', 'fixed point' or null.
  */
 function clickGreenOk(main, fixed) {
     // 1st: the green tick icon, found by its colour (below the tab bar, so the green "File" tab is not seen)
@@ -1226,7 +1239,43 @@ function clickGreenOk(main, fixed) {
     return null;
 }
 
-/** Builds a box with the clicks of a person: Extrude, plane, Rectangle, 2 corners, OK, finish. */
+/**
+ * Types the extrude depth into the depth box of the Extrude tab (only when CONFIG.design.depth is a number > 0).
+ * The box is found from the word "Depth" (the group name on the Extrude tab). If the click misses, change
+ * CONFIG.design.depthBoxDx / depthBoxDy after looking at the creo-extrude-tab-*.png screenshot.
+ * A problem here is NOT fatal: the extrude is then finished with the default depth.
+ */
+async function setExtrudeDepth(main) {
+    const d = CONFIG.design;
+    const depth = Number(d.depth);
+
+    if (!depth || depth <= 0) {
+        writeLog('  depth: the default depth of Creo is kept.');
+        return;
+    }
+
+    action('DESIGN', `set the extrude depth to ${depth}`);
+
+    // picture of the Extrude tab, so you can see where the depth box is
+    try { writeLog(`Screenshot saved: ${saveScreenshot({ x: main.x, y: main.y, width: main.width, height: d.ribbonHeight }, `creo-extrude-tab-${Date.now()}.png`)}`); } catch { /* ignore */ }
+
+    const word = findWord({ x: main.x, y: main.y + 40, width: main.width, height: d.ribbonHeight - 40 }, 'Depth');
+
+    if (!word) {
+        writeLog('  WARNING: the word "Depth" was not found on the Extrude tab. The default depth is kept.');
+        return;
+    }
+
+    clickAt(word.x + d.depthBoxDx, word.y + d.depthBoxDy);
+    await sleep(600);
+    pasteText(String(depth));
+    await sleep(400);
+    sendKeys('{ENTER}');
+    await sleep(d.stepWait);
+    writeLog(`  depth ${depth} typed.`);
+}
+
+/** Builds a box with the clicks of a person: Extrude, plane, Rectangle, 2 corners, OK, (depth), finish. */
 async function designByClicks(mainHandle) {
     const d = CONFIG.design;
 
@@ -1315,8 +1364,16 @@ async function designByClicks(mainHandle) {
     main = getWindowByHandle(mainHandle) || main;
     if (!extrudeTabActive(main)) fail('Extrude tool', 'The Extrude tool is not open. See the screenshot.');
 
-    // 7. green OK of the extrude. 1st OCR, 2nd middle click (also accepts the feature in Creo)
+    // 6b. optional: type a fixed depth (CONFIG.design.depth). The default depth is kept when depth is 0.
+    try {
+        await setExtrudeDepth(main);
+    } catch (error) {
+        writeLog(`  WARNING: could not set the depth: ${firstLine(error)}. The default depth is kept.`);
+    }
+
+    // 7. green OK of the extrude. 1st the green icon / OCR, 2nd middle click (also accepts the feature in Creo)
     action('DESIGN', '7/7 click the green OK (finish the extrude)');
+    main = getWindowByHandle(mainHandle) || main;
     how = clickGreenOk(main, null);
     writeLog(`  extrude OK clicked by: ${how}`);
     await sleep(d.stepWait + 1500);
@@ -1341,7 +1398,9 @@ async function designByClicks(mainHandle) {
         throw new Error('The design was not created: no Extrude feature in the model tree. See the creo-design screenshot.');
     }
 
-    summary.design = 'yes (Extrude feature is in the model tree)';
+    summary.design = CONFIG.design.depth > 0
+        ? `yes (3D Extrude feature, depth ${CONFIG.design.depth}, is in the model tree)`
+        : 'yes (3D Extrude feature is in the model tree)';
 }
 
 /** Is this contextual tab (for example "Sketch") shown in the tab bar at the top? */
@@ -1486,7 +1545,7 @@ async function createDesign(mainHandle) {
 
     if (d.auto) {
         if (d.extrude) {
-            writeLog('---- Create the design with clicks (Extrude box) ----');
+            writeLog('---- Create the design with clicks (3D Extrude box) ----');
             await designByClicks(mainHandle);
         } else {
             writeLog('---- Create the design with clicks (2D sketch only) ----');
@@ -1501,9 +1560,8 @@ async function createDesign(mainHandle) {
 
 /** Finds the label in the OCR words. OCR can read "QC_Confidential" as one word or as "QC" "Confidential". */
 function findLabelWord(words, name) {
-    const whole = normalize(name);
     const one = words.find(w => looksLike(w.text, name));
-    
+
     if (one) return one;
 
     const tokens = name.split(/[^a-zA-Z0-9]+/).map(normalize).filter(Boolean);
@@ -1633,8 +1691,6 @@ async function applyLabel(mainHandle) {
         .map(w => w.text).join(' ');
     writeLog(`  Sensitivity bar after apply: ${after}`);
     try { writeLog(`Screenshot saved: ${saveScreenshot(main, `creo-label-done-${Date.now()}.png`)}`); } catch { /* ignore */ }
-
-    const text = normalize(after);
 
     if (looksLike(after, lb.name)) {
         summary.label = `yes (${lb.name} is shown in the Sensitivity bar)`;
@@ -2012,9 +2068,9 @@ async function verifyProtection(handle) {
     // 5. decide
     let status;
 
-if (looksLike(read.text, lb.name)) status = 'PROTECTED';
-else if (looksLike(read.text, 'Not set') || looksLike(read.text, 'No Protection')) status = 'UNPROTECTED';
-else status = 'UNKNOWN';
+    if (looksLike(read.text, lb.name)) status = 'PROTECTED';
+    else if (looksLike(read.text, 'Not set') || looksLike(read.text, 'No Protection')) status = 'UNPROTECTED';
+    else status = 'UNKNOWN';
 
     const shown = status === 'PROTECTED' ? lb.name : (read.text || '(nothing read)');
 
@@ -2126,7 +2182,7 @@ async function run() {
             // ignore
         }
     } finally {
-        // 10. close everything, also after an error
+        // 11. close everything, also after an error
         if (driver) {
             try {
                 await driver.deleteSession();

@@ -1,91 +1,87 @@
-2026-11-17 08:30:14 | INFO  | ==================== RUN START (Creo login and rights) ====================
-2026-11-17 08:30:14 | INFO  | Log file: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\Microsoft-sign-log.txt
-2026-11-17 08:30:14 | WARN  | "C:\Users\TESTUSER\Documents\Part_0002.prt" does not exist. Found in the same folder: part_0002.prt.1. Using: C:\Users\TESTUSER\Documents\part_0002.prt
-2026-11-17 08:30:14 | INFO  | File to open: C:\Users\TESTUSER\Documents\part_0002.prt | model name: part_0002
-2026-11-17 08:30:17 | INFO  | LAUNCH   | Creo started: C:\Program Files\PTC\Creo 13.4.0.0\Parametric\bin\parametric.exe
-2026-11-17 08:30:17 | INFO  | Waiting for the main Creo window...
-2026-11-17 08:30:28 | INFO  |   window: handle=4392236 pid=668 size=705x203 title="Administrator Mapkeys Update"
-2026-11-17 08:30:28 | INFO  |   window: handle=3409640 pid=668 size=1382x736 title="Creo Parametric"
-2026-11-17 08:30:28 | INFO  |   window: handle=5310118 pid=668 size=1206x720 title="Resource Center"
-2026-11-17 08:30:28 | INFO  | Main window chosen: title="Creo Parametric" size=1382x736
-2026-11-17 08:30:28 | INFO  | Waiting 10 seconds for Creo to finish loading...
-2026-11-17 08:30:39 | INFO  | Creo popup closed: "Administrator Mapkeys Update"
-2026-11-17 08:30:40 | INFO  | Creo popup closed: "Resource Center"
-2026-11-17 08:30:47 | INFO  | OPEN     | File: part_0002.prt | Path: C:\Users\TESTUSER\Documents\part_0002.prt
-2026-11-17 08:30:47 | INFO  | Popup watcher started (presses OK on HaloCAD popups).
-2026-11-17 08:30:49 | INFO  | TRY 1    | click on the empty ribbon, then Ctrl+O
-2026-11-17 08:30:49 | INFO  |   mouse click at x=780 y=62
-2026-11-17 08:30:53 | INFO  |   opening: C:\Users\TESTUSER\Documents\part_0002.prt
-2026-11-17 08:30:56 | INFO  | Waiting for the "HaloCAD" popup (the file is opening)...
-2026-11-17 08:30:58 | INFO  | POPUP    | Window found: "HaloCAD"
-2026-11-17 08:30:59 | INFO  |   popup "HaloCAD" handle=6358224 position=492,310 size=399x159
-2026-11-17 08:30:59 | INFO  |   "OK" (UI Automation, try 1): no-pattern
-2026-11-17 08:31:02 | WARN  |   the word OK was not found in the popup by OCR.
-2026-11-17 08:31:04 | INFO  | POPUP    | "OK" pressed (Enter key (popup brought to the front))
-2026-11-17 08:31:06 | INFO  | LOGIN    | Login window found: "Sign in to your account"
-2026-11-17 08:31:06 | INFO  | Password check: length=10, has #=true, has @=false
-2026-11-17 08:31:06 | INFO  | Waiting for the user name page...
-2026-11-17 08:31:08 | INFO  |   page text: "Sign in to your account Microsoft Sign in Email, phone, or Skype Can't access your account"
-2026-11-17 08:31:09 | INFO  | LOGIN    | Typing user name: QC1@halosecude.onmicrosoft.com
-2026-11-17 08:31:10 | INFO  | Waiting for the password page...
-2026-11-17 08:31:12 | INFO  |   page text: "Sign in to your account Microsoft qcl@halosecude.onmicrosoft.com Enter password assword Fo"
-2026-11-17 08:31:16 | INFO  | LOGIN    | Typing password
-2026-11-17 08:31:26 | INFO  |   page text after password: "Sign in to your account Microsoft qcl@halosecude.onmicrosoft.com Enter password Forgot my "
-2026-11-17 08:31:26 | WARN  | Still on the password page, trying: click Sign in (found by its text)
-2026-11-17 08:31:29 | INFO  |   words read by OCR: Sign in to your account Microsoft qcl@halosecude.onmicrosoft.com Enter password Forgot my password x Terms of use Sign in Privacy & cookies
-2026-11-17 08:31:29 | INFO  |   mouse click at x=829 y=376
-2026-11-17 08:31:37 | INFO  | LOGIN    | User: QC1@halosecude.onmicrosoft.com | Login window closed
-2026-11-17 08:31:38 | INFO  | File opened.
-2026-11-17 08:31:38 | INFO  | VERIFY   | read the Sensitivity label
-2026-11-17 08:31:46 | INFO  |   OCR (bar window 418x44): 
-2026-11-17 08:31:46 | INFO  |   OCR (upper half of the Creo window): 0
-2026-11-17 08:31:50 | INFO  |   OCR (bar window 418x44): 
-2026-11-17 08:31:51 | INFO  |   OCR (upper half of the Creo window): 0
-2026-11-17 08:31:55 | INFO  |   OCR (bar window 418x44): 
-2026-11-17 08:31:56 | INFO  |   OCR (upper half of the Creo window): 0
-2026-11-17 08:32:00 | INFO  |   OCR (bar window 418x44): 
-2026-11-17 08:32:01 | INFO  |   OCR (upper half of the Creo window): 0
-2026-11-17 08:32:04 | INFO  |   OCR (bar window 418x44): 
-2026-11-17 08:32:05 | INFO  |   OCR (upper half of the Creo window): 0
-2026-11-17 08:32:09 | INFO  |   OCR (bar window 418x44): 
-2026-11-17 08:32:10 | INFO  |   OCR (upper half of the Creo window): 0
-2026-11-17 08:32:14 | INFO  |   OCR (bar window 418x44): 
-2026-11-17 08:32:15 | INFO  |   OCR (upper half of the Creo window): 0
-2026-11-17 08:32:19 | INFO  |   OCR (bar window 418x44): 
-2026-11-17 08:32:20 | INFO  |   OCR (upper half of the Creo window): 0
-2026-11-17 08:32:24 | INFO  |   OCR (bar window 418x44): 
-2026-11-17 08:32:25 | INFO  |   OCR (upper half of the Creo window): 0
-2026-11-17 08:32:28 | INFO  | Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\creo-bar-not-found-1794900748388.png
-2026-11-17 08:32:28 | INFO  | RIGHTS   | User: qc1@halosecude.onmicrosoft.com | Role: Viewer | Expected: File menu Save disabled, Save As disabled, Print disabled
-2026-11-17 08:32:30 | INFO  | MENU     | open the "File" menu
-2026-11-17 08:32:31 | INFO  |   "File" (UI Automation): no-element
-2026-11-17 08:32:32 | WARN  |   the word "File" was not found by OCR (try 1). Clicking the fixed point of the green File tab.
-2026-11-17 08:32:32 | INFO  |   mouse click at x=29 y=38
-2026-11-17 08:32:38 | INFO  | Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\creo-file-menu-1794900757745.png
-2026-11-17 08:32:39 | INFO  |   words read in the File menu: New Open Save save As Print Close Manage Eile Pzepare Send Manage Session Help Options Recent Files Open Last Session wtws.//WC124/..., Z wtws./MC124/Cl g wtws://WC124/Cl 9 wtws:/MC124/Cl wtws://WC124/Lib wtws://WC124/.../ wtws://WC124/.../I
-2026-11-17 08:32:39 | INFO  |   reference "New" (always enabled): darkest pixel = 65
-2026-11-17 08:32:40 | INFO  |   reference "Open" (always enabled): darkest pixel = 65
-2026-11-17 08:32:40 | INFO  |   reference "Close" (always enabled): darkest pixel = 65
-2026-11-17 08:32:40 | INFO  |   "Save" (UI Automation): no-element
-2026-11-17 08:32:41 | INFO  |   "Save" darkest pixel = 175 (limit 110) -> disabled
-2026-11-17 08:32:41 | INFO  | MENU     | Save: disabled | expected disabled | OK | by text colour
-2026-11-17 08:32:42 | INFO  |   "Save As" (UI Automation): no-element
-2026-11-17 08:32:42 | INFO  |   "Save As" darkest pixel = 175 (limit 110) -> disabled
-2026-11-17 08:32:42 | INFO  | MENU     | Save As: disabled | expected disabled | OK | by text colour
-2026-11-17 08:32:42 | INFO  |   "Print" (UI Automation): no-element
-2026-11-17 08:32:43 | INFO  |   "Print" darkest pixel = 175 (limit 110) -> disabled
-2026-11-17 08:32:43 | INFO  | MENU     | Print: disabled | expected disabled | OK | by text colour
-2026-11-17 08:32:46 | INFO  | Closed: parametric.exe
-2026-11-17 08:32:47 | INFO  | Closed: xtop.exe
-2026-11-17 08:32:49 | INFO  | CLOSEAPP | Creo running: false
-2026-11-17 08:32:49 | INFO  | ----------------------------------------------------
-2026-11-17 08:32:49 | INFO  | File name      : part_0002.prt
-2026-11-17 08:32:49 | INFO  | Logged in as   : QC1@halosecude.onmicrosoft.com
-2026-11-17 08:32:49 | INFO  | Role           : Viewer
-2026-11-17 08:32:49 | INFO  | Login          : successful (login window closed)
-2026-11-17 08:32:49 | INFO  | File opened    : yes
-2026-11-17 08:32:49 | INFO  | Label on bar   : not readable (the Sensitivity bar was not found)
-2026-11-17 08:32:49 | INFO  | File menu      : PASS (Save: disabled (pixel 175), Save As: disabled (pixel 175), Print: disabled (pixel 175))
-2026-11-17 08:32:49 | INFO  | Rights check   : PASS - Viewer: File menu: Save: disabled (pixel 175), Save As: disabled (pixel 175), Print: disabled (pixel 175)
-2026-11-17 08:32:49 | INFO  | ----------------------------------------------------
-2026-11-17 08:32:49 | INFO  | ==================== RUN END ====================
+2026-11-17 11:53:56 | INFO  | ==================== RUN START (Creo login and rights) ====================
+2026-11-17 11:53:56 | INFO  | Log file: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\Microsoft-sign-log.txt
+2026-11-17 11:53:56 | WARN  | "C:\Users\TESTUSER\Documents\Part_0002.prt" does not exist. Found in the same folder: part_0002.prt.1. Using: C:\Users\TESTUSER\Documents\part_0002.prt
+2026-11-17 11:53:56 | INFO  | File to open: C:\Users\TESTUSER\Documents\part_0002.prt | model name: part_0002
+2026-11-17 11:53:59 | INFO  | LAUNCH   | Creo started: C:\Program Files\PTC\Creo 13.4.0.0\Parametric\bin\parametric.exe
+2026-11-17 11:53:59 | INFO  | Waiting for the main Creo window...
+2026-11-17 11:54:16 | INFO  |   window: handle=3999998 pid=7892 size=705x203 title="Administrator Mapkeys Update"
+2026-11-17 11:54:16 | INFO  |   window: handle=2295906 pid=7892 size=1382x736 title="Creo Parametric"
+2026-11-17 11:54:16 | INFO  |   window: handle=6095864 pid=7892 size=1206x720 title="Resource Center"
+2026-11-17 11:54:16 | INFO  | Main window chosen: title="Creo Parametric" size=1382x736
+2026-11-17 11:54:16 | INFO  | Waiting 10 seconds for Creo to finish loading...
+2026-11-17 11:54:27 | INFO  | Creo popup closed: "Administrator Mapkeys Update"
+2026-11-17 11:54:27 | INFO  | Creo popup closed: "Resource Center"
+2026-11-17 11:54:35 | INFO  | OPEN     | File: part_0002.prt | Path: C:\Users\TESTUSER\Documents\part_0002.prt
+2026-11-17 11:54:35 | INFO  | Popup watcher started (presses OK on HaloCAD popups).
+2026-11-17 11:54:37 | INFO  | TRY 1    | click on the empty ribbon, then Ctrl+O
+2026-11-17 11:54:37 | INFO  |   mouse click at x=780 y=62
+2026-11-17 11:54:41 | INFO  |   opening: C:\Users\TESTUSER\Documents\part_0002.prt
+2026-11-17 11:54:44 | INFO  | Waiting for the "HaloCAD" popup (the file is opening)...
+2026-11-17 11:54:46 | INFO  | POPUP    | Window found: "HaloCAD"
+2026-11-17 11:54:46 | INFO  |   popup "HaloCAD" handle=6554544 position=492,310 size=399x159
+2026-11-17 11:54:47 | INFO  |   "OK" (UI Automation, try 1): no-pattern
+2026-11-17 11:54:50 | WARN  |   the word OK was not found in the popup by OCR.
+2026-11-17 11:54:52 | INFO  | POPUP    | "OK" pressed (Enter key (popup brought to the front))
+2026-11-17 11:54:53 | INFO  | LOGIN    | Login window found: "Sign in to your account"
+2026-11-17 11:54:53 | INFO  | Password check: length=10, has #=true, has @=false
+2026-11-17 11:54:53 | INFO  | Waiting for the user name page...
+2026-11-17 11:54:55 | INFO  |   page text: "Sign in to your account Microsoft Sign in Email, phone, or Skype Can't access your account"
+2026-11-17 11:54:56 | INFO  | LOGIN    | Typing user name: QC1@halosecude.onmicrosoft.com
+2026-11-17 11:54:58 | INFO  | Waiting for the password page...
+2026-11-17 11:55:00 | INFO  |   page text: "Sign in to your account Microsoft qcl@halosecude.onmicrosoft.com Enter password Password F"
+2026-11-17 11:55:03 | INFO  | LOGIN    | Typing password
+2026-11-17 11:55:12 | INFO  | LOGIN    | User: QC1@halosecude.onmicrosoft.com | Login window closed
+2026-11-17 11:55:13 | INFO  | File opened.
+2026-11-17 11:55:13 | INFO  | VERIFY   | read the Sensitivity label
+2026-11-17 11:55:21 | INFO  |   OCR (bar window 418x44): te multiple instances of a selected item rm a pattern.
+2026-11-17 11:55:22 | INFO  |   OCR (upper half of the Creo window): coo ooo ooo Pattern 0 Create multiple instances of a selected item to form a pattern.
+2026-11-17 11:55:26 | INFO  |   OCR (bar window 418x44): te multiple instances of a selected item rm a pattern.
+2026-11-17 11:55:27 | INFO  |   OCR (upper half of the Creo window): coo ooo ooo Pattern 0 Create multiple instances of a selected item to form a pattern.
+2026-11-17 11:55:30 | INFO  |   OCR (bar window 418x44): te multiple instances of a selected item rm a pattern.
+2026-11-17 11:55:31 | INFO  |   OCR (upper half of the Creo window): coo ooo ooo Pattern 0 Create multiple instances of a selected item to form a pattern.
+2026-11-17 11:55:35 | INFO  |   OCR (bar window 418x44): te multiple instances of a selected item rm a pattern.
+2026-11-17 11:55:36 | INFO  |   OCR (upper half of the Creo window): coo ooo ooo Pattern 0 Create multiple instances of a selected item to form a pattern.
+2026-11-17 11:55:40 | INFO  |   OCR (bar window 418x44): te multiple instances of a selected item rm a pattern.
+2026-11-17 11:55:41 | INFO  |   OCR (upper half of the Creo window): coo ooo ooo Pattern 0 Create multiple instances of a selected item to form a pattern.
+2026-11-17 11:55:45 | INFO  |   OCR (bar window 418x44): te multiple instances of a selected item rm a pattern.
+2026-11-17 11:55:46 | INFO  |   OCR (upper half of the Creo window): coo ooo ooo Pattern 0 Create multiple instances of a selected item to form a pattern.
+2026-11-17 11:55:50 | INFO  |   OCR (bar window 418x44): te multiple instances of a selected item rm a pattern.
+2026-11-17 11:55:51 | INFO  |   OCR (upper half of the Creo window): coo ooo ooo Pattern 0 Create multiple instances of a selected item to form a pattern.
+2026-11-17 11:55:55 | INFO  |   OCR (bar window 418x44): te multiple instances of a selected item rm a pattern.
+2026-11-17 11:55:56 | INFO  |   OCR (upper half of the Creo window): coo ooo ooo Pattern 0 Create multiple instances of a selected item to form a pattern.
+2026-11-17 11:56:00 | INFO  |   OCR (bar window 418x44): te multiple instances of a selected item rm a pattern.
+2026-11-17 11:56:01 | INFO  |   OCR (upper half of the Creo window): coo ooo ooo Pattern 0 Create multiple instances of a selected item to form a pattern.
+2026-11-17 11:56:04 | INFO  | Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\creo-bar-not-found-1794912964348.png
+2026-11-17 11:56:04 | INFO  | RIGHTS   | User: qc1@halosecude.onmicrosoft.com | Role: Viewer | Expected: File menu Save disabled, Save As disabled, Print disabled
+2026-11-17 11:56:06 | INFO  | MENU     | open the "File" menu
+2026-11-17 11:56:07 | INFO  |   "File" (UI Automation): no-element
+2026-11-17 11:56:08 | WARN  |   the word "File" was not found by OCR (try 1). Clicking the fixed point of the green File tab.
+2026-11-17 11:56:08 | INFO  |   mouse click at x=29 y=38
+2026-11-17 11:56:13 | INFO  | Screenshot saved: C:\Users\TESTUSER\Desktop\RP_103\Automation\HaloCAD Automation for Creo\screenshots\creo-file-menu-1794912973576.png
+2026-11-17 11:56:14 | INFO  |   words read in the File menu: New Open Save save As Print Close Manage Eile Pzepare Send Manage Session Help Options Recent Files Open Last Session wtws.//WC124/..., Z wtws./MC124/Cl g wtws://WC124/Cl 9 wtws:/MC124/Cl wtws://WC124/Lib wtws://WC124/.../ wtws://WC124/.../I
+2026-11-17 11:56:15 | INFO  |   reference "New" (always enabled): darkest pixel = 65
+2026-11-17 11:56:15 | INFO  |   reference "Open" (always enabled): darkest pixel = 65
+2026-11-17 11:56:16 | INFO  |   reference "Close" (always enabled): darkest pixel = 65
+2026-11-17 11:56:16 | INFO  |   "Save" (UI Automation): no-element
+2026-11-17 11:56:17 | INFO  |   "Save" darkest pixel = 175 (limit 110) -> disabled
+2026-11-17 11:56:17 | INFO  | MENU     | Save: disabled | expected disabled | OK | by text colour
+2026-11-17 11:56:17 | INFO  |   "Save As" (UI Automation): no-element
+2026-11-17 11:56:18 | INFO  |   "Save As" darkest pixel = 175 (limit 110) -> disabled
+2026-11-17 11:56:18 | INFO  | MENU     | Save As: disabled | expected disabled | OK | by text colour
+2026-11-17 11:56:18 | INFO  |   "Print" (UI Automation): no-element
+2026-11-17 11:56:19 | INFO  |   "Print" darkest pixel = 175 (limit 110) -> disabled
+2026-11-17 11:56:19 | INFO  | MENU     | Print: disabled | expected disabled | OK | by text colour
+2026-11-17 11:56:22 | INFO  | Closed: parametric.exe
+2026-11-17 11:56:23 | INFO  | Closed: xtop.exe
+2026-11-17 11:56:25 | INFO  | CLOSEAPP | Creo running: false
+2026-11-17 11:56:25 | INFO  | ----------------------------------------------------
+2026-11-17 11:56:25 | INFO  | File name      : part_0002.prt
+2026-11-17 11:56:25 | INFO  | Logged in as   : QC1@halosecude.onmicrosoft.com
+2026-11-17 11:56:25 | INFO  | Role           : Viewer
+2026-11-17 11:56:25 | INFO  | Login          : successful (login window closed)
+2026-11-17 11:56:25 | INFO  | File opened    : yes
+2026-11-17 11:56:25 | INFO  | Label on bar   : not readable (the Sensitivity bar was not found)
+2026-11-17 11:56:25 | INFO  | File menu      : PASS (Save: disabled (pixel 175), Save As: disabled (pixel 175), Print: disabled (pixel 175))
+2026-11-17 11:56:25 | INFO  | Rights check   : PASS - Viewer: File menu: Save: disabled (pixel 175), Save As: disabled (pixel 175), Print: disabled (pixel 175)
+2026-11-17 11:56:25 | INFO  | ----------------------------------------------------
+2026-11-17 11:56:25 | INFO  | ==================== RUN END ====================

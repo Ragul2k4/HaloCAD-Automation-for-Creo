@@ -1,26 +1,25 @@
-[17.11.2026, 08:24:06] Main started (menu).
-[17.11.2026, 08:24:11] Choice: Run all one by one
-[17.11.2026, 08:24:11] ==================== RUN START ====================
-[17.11.2026, 08:24:11] Scripts to run: Creo test (Creo-test.js) -> User reset (User-reset.js) -> Microsoft sign-in (Microsoft-sign.js)
-[17.11.2026, 08:24:11] Appium server: answers (HTTP 200)
-[17.11.2026, 08:24:11] ----------------------------------------------------
-[17.11.2026, 08:24:11] START  1/3: Creo test (Creo-test.js)
-[17.11.2026, 08:28:16] END    Creo test: PASSED | time 4 min 06 s | log: Creo-run-log.txt
-[17.11.2026, 08:28:16] Waiting 8 seconds before the next script...
-[17.11.2026, 08:28:24] ----------------------------------------------------
-[17.11.2026, 08:28:24] START  2/3: User reset (User-reset.js)
-[17.11.2026, 08:30:05] END    User reset: PASSED | time 1 min 41 s | log: User-reset-log.txt
-[17.11.2026, 08:30:05] Waiting 8 seconds before the next script...
-[17.11.2026, 08:30:13] ----------------------------------------------------
-[17.11.2026, 08:30:13] START  3/3: Microsoft sign-in (Microsoft-sign.js)
-[17.11.2026, 08:32:49] END    Microsoft sign-in: PASSED | time 2 min 35 s | log: Microsoft-sign-log.txt
-[17.11.2026, 08:32:49] ----------------------------------------------------
-[17.11.2026, 08:32:49] 1. Creo test         : PASSED
-[17.11.2026, 08:32:49] 2. User reset        : PASSED
-[17.11.2026, 08:32:49] 3. Microsoft sign-in : PASSED
-[17.11.2026, 08:32:49] ----------------------------------------------------
-[17.11.2026, 08:32:49] Total time: 8 min 38 s
-[17.11.2026, 08:32:49] RESULT: PASSED (3 passed, 0 failed, 0 skipped)
-[17.11.2026, 08:32:49] ==================== RUN END ====================
-[17.11.2026, 08:33:02] Choice: Exit
-[17.11.2026, 08:33:02] Main closed.
+[17.11.2026, 11:47:55] Choice: Run all one by one
+[17.11.2026, 11:47:55] ==================== RUN START ====================
+[17.11.2026, 11:47:55] Scripts to run: Creo test (Creo-test.js) -> User reset (User-reset.js) -> Microsoft sign-in (Microsoft-sign.js)
+[17.11.2026, 11:47:55] Appium server: answers (HTTP 200)
+[17.11.2026, 11:47:55] ----------------------------------------------------
+[17.11.2026, 11:47:55] START  1/3: Creo test (Creo-test.js)
+[17.11.2026, 11:51:58] END    Creo test: PASSED | time 4 min 04 s | log: Creo-run-log.txt
+[17.11.2026, 11:51:58] Waiting 8 seconds before the next script...
+[17.11.2026, 11:52:06] ----------------------------------------------------
+[17.11.2026, 11:52:06] START  2/3: User reset (User-reset.js)
+[17.11.2026, 11:53:47] END    User reset: PASSED | time 1 min 41 s | log: User-reset-log.txt
+[17.11.2026, 11:53:47] Waiting 8 seconds before the next script...
+[17.11.2026, 11:53:55] ----------------------------------------------------
+[17.11.2026, 11:53:55] START  3/3: Microsoft sign-in (Microsoft-sign.js)
+[17.11.2026, 11:56:25] END    Microsoft sign-in: PASSED | time 2 min 29 s | log: Microsoft-sign-log.txt
+[17.11.2026, 11:56:25] ----------------------------------------------------
+[17.11.2026, 11:56:25] 1. Creo test         : PASSED
+[17.11.2026, 11:56:25] 2. User reset        : PASSED
+[17.11.2026, 11:56:25] 3. Microsoft sign-in : PASSED
+[17.11.2026, 11:56:25] ----------------------------------------------------
+[17.11.2026, 11:56:25] Total time: 8 min 30 s
+[17.11.2026, 11:56:25] RESULT: PASSED (3 passed, 0 failed, 0 skipped)
+[17.11.2026, 11:56:25] ==================== RUN END ====================
+[17.11.2026, 13:13:45] Choice: Exit
+[17.11.2026, 13:13:45] Main closed.
